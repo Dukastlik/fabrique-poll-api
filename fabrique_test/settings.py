@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'fabrique_polls',
-        'USER': 'yoshimura',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'USER': 'dev',
+        'PASSWORD': 'dev',
+        'HOST': 'fabriquepollgres',
         'PORT': '5432',
         # 'NAME': BASE_DIR / 'db.sqlite3',
     }
